@@ -1,7 +1,7 @@
 package com.chegouAqui.encomendas.controller;
 
-import com.chegouAqui.encomendas.entity.Admnistrador;
-import com.chegouAqui.encomendas.service.AdmnistradorService;
+import com.chegouAqui.encomendas.entity.Administrador;
+import com.chegouAqui.encomendas.service.AdministradorService;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -9,21 +9,21 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 @RestController
-@RequestMapping("/admnistradores")
-public class AdmnistradorController {
-    private final AdmnistradorService service;
+@RequestMapping("/administradores")
+public class AdministradorController {
+    private final AdministradorService service;
 
-    public AdmnistradorController(AdmnistradorService service) {
+    public AdministradorController(AdministradorService service) {
         this.service = service;
     }
 
     @GetMapping
-    public List<Admnistrador> listarTodos(){
+    public List<Administrador> listarTodos(){
         return service.listarTodos();
     }
     @PostMapping
-    public Admnistrador salvar(@RequestBody Admnistrador admnistrador){
-        return service.salvar(admnistrador);
+    public Administrador salvar(@RequestBody Administrador administrador){
+        return service.salvar(administrador);
     }
     @DeleteMapping("/{id}")
     public void deletar(@PathVariable Long id){
