@@ -23,6 +23,6 @@ public class Porteiro {
     private String cpf;
 
     @ManyToOne
-    @JoinColumn(name = "fk_id_admnistrador")
-    private Admnistrador admnistrador;
+    @JoinColumn(name = "fk_id_administrador")
+    private Administrador administrador;
 }
