@@ -16,13 +16,14 @@ public class Morador {
     @Id
     @GeneratedValue (strategy = GenerationType.IDENTITY)
     private Long id;
-
     private String nome;
     private String bloco;
     private String apto;
     private String email;
     private String cpf;
-    @JoinColumn(name = "fk_id_morador")
-    private Admnistrador admnistrador;
+
+    @ManyToOne
+    @JoinColumn(name = "fk_id_administrador")
+    private Administrador administrador;
 
 }
