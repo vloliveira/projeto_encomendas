@@ -16,7 +16,6 @@ Banco de Dados	SQL (modelo relacional)
 Comunicação	API RESTful
 Testes	JUnit e Mockito (a definir)
 
-Exportar para as Planilhas
 ✨ Funcionalidades Principais
 🔒 Login de Porteiros: Cada porteiro tem seu login e senha, com acesso compartilhado aos dados após o login.
 
@@ -27,6 +26,20 @@ Exportar para as Planilhas
 🔑 Confirmação de Entrega (PIN): O porteiro atualiza o status para "Entregue" após o morador informar o código PIN.
 
 📊 Histórico Completo: Rastreamento de todas as movimentações, incluindo horário, data e o responsável pela entrega e recebimento.
+
+🚧 Status e Próximos Passos
+Status	Descrição: Em Construção	
+
+Próximos passos planejados:
+
+[x] Implementar as entidades (Morador, Porteiro, Encomenda).
+
+[ ] Desenvolver os endpoints de cadastro e login.
+
+[ ] Integrar com a API de notificações.
+
+[ ] Iniciar o desenvolvimento do frontend.
+
 
 ⚙️ Instalação e Execução
 Como o projeto está em fase inicial, as instruções a seguir serão atualizadas com o avanço do desenvolvimento.
@@ -50,17 +63,3 @@ Execute a classe principal da aplicação Spring Boot.
 
 A API será iniciada em http://localhost:8080.
 
-🚧 Status e Próximos Passos
-Status	Descrição
-Em Construção	O projeto está na fase de estruturação do backend e modelagem do banco de dados.
-
-Exportar para as Planilhas
-Próximos passos planejados:
-
-[ ] Implementar as entidades (Morador, Porteiro, Encomenda).
-
-[ ] Desenvolver os endpoints de cadastro e login.
-
-[ ] Integrar com a API de WhatsApp.
-
-[ ] Iniciar o desenvolvimento do frontend.
