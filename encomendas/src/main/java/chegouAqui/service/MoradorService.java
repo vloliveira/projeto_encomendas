@@ -1,7 +1,7 @@
-package com.chegouAqui.encomendas.service;
+package chegouAqui.service;
 
-import com.chegouAqui.encomendas.entity.Morador;
-import com.chegouAqui.encomendas.repository.MoradorRepository;
+import chegouAqui.entity.Morador;
+import chegouAqui.repository.MoradorRepository;
 import org.springframework.stereotype.Service;
 import java.util.List;
 

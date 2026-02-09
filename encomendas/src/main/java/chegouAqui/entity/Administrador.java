@@ -1,4 +1,4 @@
-package com.chegouAqui.encomendas.entity;
+package chegouAqui.entity;
 
 // Os comentários desta classe são iniciais, para estudo das funcionalidades do JPA e Lombok
 

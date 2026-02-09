@@ -1,6 +1,6 @@
-package com.chegouAqui.encomendas.repository;
+package chegouAqui.repository;
 
-import com.chegouAqui.encomendas.entity.Porteiro;
+import chegouAqui.entity.Porteiro;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface PorteiroRepository extends JpaRepository <Porteiro, Long> {

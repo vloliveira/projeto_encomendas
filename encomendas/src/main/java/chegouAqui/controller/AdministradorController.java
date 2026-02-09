@@ -1,7 +1,7 @@
-package com.chegouAqui.encomendas.controller;
+package chegouAqui.controller;
 
-import com.chegouAqui.encomendas.entity.Administrador;
-import com.chegouAqui.encomendas.service.AdministradorService;
+import chegouAqui.entity.Administrador;
+import chegouAqui.service.AdministradorService;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

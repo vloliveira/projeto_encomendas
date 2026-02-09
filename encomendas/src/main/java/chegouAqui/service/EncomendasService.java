@@ -1,7 +1,7 @@
-package com.chegouAqui.encomendas.service;
+package chegouAqui.service;
 
-import com.chegouAqui.encomendas.entity.Encomendas;
-import com.chegouAqui.encomendas.repository.EncomendasRepository;
+import chegouAqui.entity.Encomendas;
+import chegouAqui.repository.EncomendasRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

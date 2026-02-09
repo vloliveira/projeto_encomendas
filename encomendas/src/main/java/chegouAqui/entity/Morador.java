@@ -1,4 +1,4 @@
-package com.chegouAqui.encomendas.entity;
+package chegouAqui.entity;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

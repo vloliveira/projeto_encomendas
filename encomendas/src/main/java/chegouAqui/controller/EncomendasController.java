@@ -1,8 +1,8 @@
-package com.chegouAqui.encomendas.controller;
+package chegouAqui.controller;
 
 
-import com.chegouAqui.encomendas.entity.Encomendas;
-import com.chegouAqui.encomendas.service.EncomendasService;
+import chegouAqui.entity.Encomendas;
+import chegouAqui.service.EncomendasService;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
