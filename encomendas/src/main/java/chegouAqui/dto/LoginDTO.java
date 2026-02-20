@@ -5,6 +5,7 @@ public class LoginDTO {
     private String usuario;
     private String senha;
 
+
     public String getEmail(){
         return email;
     }
